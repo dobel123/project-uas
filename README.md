@@ -2,6 +2,7 @@ NAMA: DONI SAPUTRA
 KELAS: TI.24.A4
 NIM: 312410325
 MATKUL: BAHASA PEMROGRAMAN
+
 ![Cuplikan layar 2025-01-07 224518](https://github.com/user-attachments/assets/9680106d-6a73-4dd1-aea7-bf7d7ed83ac5)
 
 
@@ -156,3 +157,6 @@ if __name__ == "__main__":
 Fungsi utama ini berfungsi sebagai penghubung antara input pengguna, pemrosesan data, dan tampilan hasil. Input dari pengguna: Pengguna diminta untuk memasukkan nama pelanggan, jumlah mie ayam, dan tanggal pemesanan.
 
 BERIKUT CONTOH INPUT
+
+![Cuplikan layar 2025-01-07 223226](https://github.com/user-attachments/assets/5f9ccad6-c016-4bbb-9b02-168569084313)
+
