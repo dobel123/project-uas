@@ -3,9 +3,13 @@ KELAS: TI.24.A4
 NIM: 312410325
 MATKUL: BAHASA PEMROGRAMAN
 ![Cuplikan layar 2025-01-07 224518](https://github.com/user-attachments/assets/9680106d-6a73-4dd1-aea7-bf7d7ed83ac5)
+
+
 Program ini adalah aplikasi sederhana untuk berjualan bayam geprek di perumahan mega regency. Program ini dibuat dengan pendekatan modular dan menggunakan prinsip OOP (Object-Oriented Programming).
 
 BERIKUT PROGRAM INPUT
+
+```python
 class Mattress:
     def __init__(self, quantity):
         self.quantity = quantity
@@ -76,9 +80,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
 
 kode di atas merupakan program yang mensimulasikan pemesanan ayam geprek, di mana pengguna dapat memasukkan nama pelanggan, jumlah ayam geprek yang dipesan, dan tanggal pemesanan. Program ini menghitung total harga dan menampilkan hasilnya dalam format yang terstruktur.
 
+```python
 CLASS VIEW
 @staticmethod
     def display_table(customer_name, date, quantity, total_price):
@@ -90,8 +96,11 @@ CLASS VIEW
         print(f"| Jumlah ayam geprek  : {quantity}                        |")
         print(f"| Total Harga: Rp{total_price}                    |")
         print("+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+")
+```
+
 Ini adalah metode statis yang menampilkan hasil pemesanan dalam format tabel. Menampilkan informasi nama pelanggan, tanggal pemesanan, mie ayam yang dipesan, dan total harga. Format output tabel dibuat menggunakan karakter khusus (misalnya +, |, dan spasi) untuk memberikan tampilan yang terstruktur dan mudah dibaca.
 
+```python
 CALSS PROSES
 def validate_input(input_value):
         try:
@@ -112,9 +121,12 @@ def validate_input(input_value):
         except ValueError:
             print("Format tanggal tidak valid. Gunakan MM/YYYY.")
             return None
+```
+
 Metode statis ini memvalidasi input untuk jumlah mie ayam yang dimasukkan oleh pengguna. Pertama, mencoba mengonversi nilai input ke dalam bentuk integer. Jika berhasil, akan memeriksa apakah jumlah mie ayam lebih dari atau sama dengan 1. Jika valid, mengembalikan nilai quantity, jika tidak valid, mencetak pesan error dan mengembalikan None.
 
 FUNGSI MAIN
+```python
 # Input dari pengguna
     customer_name = input("Masukkan nama pelanggan: ")
     user_input = input("Masukkan jumlah mie ayam: ")
@@ -139,6 +151,8 @@ FUNGSI MAIN
 
 if __name__ == "__main__":
     main()
+```
+
 Fungsi utama ini berfungsi sebagai penghubung antara input pengguna, pemrosesan data, dan tampilan hasil. Input dari pengguna: Pengguna diminta untuk memasukkan nama pelanggan, jumlah mie ayam, dan tanggal pemesanan.
 
 BERIKUT CONTOH INPUT
