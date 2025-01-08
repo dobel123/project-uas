@@ -108,7 +108,7 @@ def validate_input(input_value):
         try:
             quantity = int(input_value)
             if quantity < 1:
-                raise ValueError("Jumlah mie ayam tidak boleh kurang dari 1.")
+                raise ValueError("Jumlah ayam geprek tidak boleh kurang dari 1.")
             return quantity
         except ValueError as e:
             print(e)
@@ -131,7 +131,7 @@ FUNGSI MAIN
 ```python
 # Input dari pengguna
     customer_name = input("Masukkan nama pelanggan: ")
-    user_input = input("Masukkan jumlah mie ayam: ")
+    user_input = input("Masukkan jumlah ayam geprek: ")
     date_input = input("Masukkan tanggal (bulan/tahun - MM/YYYY): ")
     
     # Validasi input
