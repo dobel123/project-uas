@@ -7,7 +7,7 @@
 ![Cuplikan layar 2025-01-07 224518](https://github.com/user-attachments/assets/9680106d-6a73-4dd1-aea7-bf7d7ed83ac5)
 
 
-Program ini adalah aplikasi sederhana untuk berjualan bayam geprek di perumahan mega regency. Program ini dibuat dengan pendekatan modular dan menggunakan prinsip OOP (Object-Oriented Programming).
+Program ini adalah aplikasi sederhana untuk berjualan aayam geprek di perumahan mega regency. Program ini dibuat dengan pendekatan modular dan menggunakan prinsip OOP (Object-Oriented Programming).
 
 BERIKUT PROGRAM INPUT
 
@@ -100,7 +100,7 @@ CLASS VIEW
         print("+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+")
 ```
 
-Ini adalah metode statis yang menampilkan hasil pemesanan dalam format tabel. Menampilkan informasi nama pelanggan, tanggal pemesanan, mie ayam yang dipesan, dan total harga. Format output tabel dibuat menggunakan karakter khusus (misalnya +, |, dan spasi) untuk memberikan tampilan yang terstruktur dan mudah dibaca.
+Ini adalah metode statis yang menampilkan hasil pemesanan dalam format tabel. Menampilkan informasi nama pelanggan, tanggal pemesanan, ayam geprek yang dipesan, dan total harga. Format output tabel dibuat menggunakan karakter khusus (misalnya +, |, dan spasi) untuk memberikan tampilan yang terstruktur dan mudah dibaca.
 
 ```python
 CALSS PROSES
@@ -125,7 +125,7 @@ def validate_input(input_value):
             return None
 ```
 
-Metode statis ini memvalidasi input untuk jumlah mie ayam yang dimasukkan oleh pengguna. Pertama, mencoba mengonversi nilai input ke dalam bentuk integer. Jika berhasil, akan memeriksa apakah jumlah mie ayam lebih dari atau sama dengan 1. Jika valid, mengembalikan nilai quantity, jika tidak valid, mencetak pesan error dan mengembalikan None.
+Metode statis ini memvalidasi input untuk jumlah ayam geprek yang dimasukkan oleh pengguna. Pertama, mencoba mengonversi nilai input ke dalam bentuk integer. Jika berhasil, akan memeriksa apakah jumlah ayam geprek lebih dari atau sama dengan 1. Jika valid, mengembalikan nilai quantity, jika tidak valid, mencetak pesan error dan mengembalikan None.
 
 FUNGSI MAIN
 ```python
